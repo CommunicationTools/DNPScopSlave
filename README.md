@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="dnpscop-logo-black.png" alt="DNPScop Slave" width="520">
+  <img src="DNPScopOutstation-AnimatedSplashScreen.gif" alt="DNPScop Slave" width="900">
 </p>
 
 **DNPScop Slave** is a free **DNP3 (IEEE 1815) outstation simulator** with a

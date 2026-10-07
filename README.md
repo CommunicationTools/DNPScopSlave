@@ -47,6 +47,11 @@ DNPScop Slave is organized as a tree: **Channels → Outstations → Point group
   identically.
 - **Multi-outstation, multi-master** — many channels, each with many outstations
   on distinct link addresses; TCP channels serve multiple masters concurrently.
+- **Configurable DNP3 stack sizes (per channel)** — an Advanced settings tab sets
+  the link-layer max frame size (100–292 bytes, the DNP3 standard maximum), shows
+  the auto-calculated transport fragment size, and sets a self-imposed application
+  max message size (up to 16000). Large messages segment across standard link
+  frames, so captures stay Wireshark- and master-compatible.
 - **Full point model** — Binary Inputs, Double-bit Binary Inputs, Binary Outputs,
   Analog Inputs, Analog Outputs, Counters and Frozen Counters, with per-point
   static and event variations.
